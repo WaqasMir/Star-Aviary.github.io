@@ -1,3 +1,11 @@
+.carousal-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 27rem;
+    font-family: 'Baloo Chettan 2', Bold;
+}
+
 .simage {
     height: 30rem;
     z-index: -1;
@@ -12,20 +20,6 @@
     z-index: 0;
     opacity: 0.5;
     width: 100%;
-}
-
-@media screen and (max-width: 540px) {
-    .simage {
-        height: 17rem;
-    }
-    .above {
-        height: 17rem;
-        z-index: 0;
-    }
-    .carousal-text {
-        z-index: 1;
-        top: 15rem;
-    }
 }
 
 #navbar {
@@ -79,11 +73,14 @@
     margin-left: 1rem;
 }
 
-.carousal-text {
-    position: absolute;
-    top: 20rem;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    font-family: 'Baloo Chettan 2', cursive;
+@media screen and (max-width: 540px) {
+    .simage {
+        height: 17rem;
+    }
+    .above {
+        height: 17rem;
+    }
+    .carousal-text {
+        height: 15rem;
+    }
 }
