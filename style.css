@@ -75,12 +75,12 @@
 
 @media screen and (max-width: 540px) {
     .simage {
-        height: 17rem;
+        height: 15rem;
     }
     .above {
-        height: 17rem;
+        height: 15rem;
     }
     .carousal-text {
-        height: 15rem;
+        height: 13rem;
     }
 }
