@@ -73,6 +73,70 @@
     margin-left: 1rem;
 }
 
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.2rem;
+    height: 3rem;
+}
+
+.cmargin {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.text-big {
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+.text-small {
+    padding: 0.3em;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+.fcard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardbg {
+    background-color: rgb(239, 239, 239);
+    width: 20rem;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.gallery2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.gcard {
+    width: 20rem;
+}
+
 @media screen and (max-width: 540px) {
     .simage {
         height: 15rem;
