@@ -119,7 +119,18 @@
     width: 20rem;
 }
 
-.gallery {
+.header-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-right {
+    text-align: right;
+    margin-bottom: 0;
+    font-family: 'Baloo Chettan 2', Bold;
+}
+
+
+/* .gallery {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -129,26 +140,52 @@
 }
 
 .gimg {
-    margin-left: 0.8rem;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
 }
 
 .gcard {
-    width: 20rem;
+    width: 15rem;
+    height: 5.5rem;
 }
 
 .gcontainer {
     height: 15rem;
-}
+} */
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    height: 30vh;
+    background-color: #083339;
+    margin-top: 2vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
 }
 
-@media screen and (max-width:1199px) {
-    .gcontainer {
-        height: 20rem;
-    }
+.footbtn {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin-top: 1rem;
+    color: white !important;
+}
+
+.footbtn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.fbtn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.foot-text {
+    justify-self: center;
+    width: 80vw;
+}
+
+.ft-text {
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 540px) {
@@ -168,6 +205,16 @@
         width: 15rem;
     }
     .gcontainer {
-        height: 11rem;
+        height: 10.3rem;
+    }
+    .ft-text {
+        font-size: 0.9rem;
+    }
+    .foot-text {
+        width: 50vw;
+    }
+    .fbtn {
+        margin-left: 0;
+        width: 7rem;
     }
 }
